@@ -1,7 +1,5 @@
 import { Link, Stack } from 'expo-router';
-import { LogBox, StyleSheet, Text, View } from 'react-native';
-
-LogBox.ignoreAllLogs(true);
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function NotFoundScreen() {
   return (
